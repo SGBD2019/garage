@@ -1,0 +1,1 @@
+{"_links":{"self":{"href":"/makes/51535/models"},"models":[{"href":"/makes/51535/models/20257"}]},"_request":{"url":"/makes/51535/models","body":null,"method":"GET"},"_response":{"type":"Success"},"_data":{"models":[{"id":20257,"make":51535,"name":"Others","vehicleType":"C"}]}}

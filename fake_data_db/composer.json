@@ -1,0 +1,6 @@
+{
+    "require": {
+        "fzaninotto/faker": "^1.8",
+        "pelmered/fake-car": "^1.3"
+    }
+}

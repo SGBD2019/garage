@@ -1,0 +1,1 @@
+{"_links":{"self":{"href":"/makes/51796/models"},"models":[{"href":"/makes/51796/models/74991"},{"href":"/makes/51796/models/74992"}]},"_request":{"url":"/makes/51796/models","body":null,"method":"GET"},"_response":{"type":"Success"},"_data":{"models":[{"id":74991,"make":51796,"name":"A110","vehicleType":"C"},{"id":74992,"make":51796,"name":"Others","vehicleType":"C"}]}}
