@@ -8,7 +8,7 @@
 -- Version de PHP :  7.2.14
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
+SET AUTOCOMMIT = 1;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -21,7 +21,9 @@ SET time_zone = "+00:00";
 --
 -- Base de données :  `sgbd_garage`
 --
-
+DROP DATABASE IF EXISTS sgbd_garage;
+CREATE DATABASE IF NOT EXISTS sgbd_garage DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE sgbd_garage;
 -- --------------------------------------------------------
 
 --
@@ -63,6 +65,7 @@ DROP TABLE IF EXISTS `marque`;
 CREATE TABLE IF NOT EXISTS `marque` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
+  `logo` varchar(255),
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
